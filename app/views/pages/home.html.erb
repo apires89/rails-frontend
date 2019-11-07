@@ -1,0 +1,18 @@
+<h1>Pages#home</h1>
+<%= link_to "Javascript Demo", main_path %>
+<div class="logo"></div>
+<%#= image_tag "logo.png", alt: "Le Wagon", class: "image-style" %>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<%= render 'components/card' %>
+<%= render 'components/card' %>
+
+<!-- <#%= @restaurants.each do |restaurant| %>
+<#%= render 'components/card', restaurant: restaurant %>
+<#% end %> -->
+
+<%= render 'components/modal' %>
+
